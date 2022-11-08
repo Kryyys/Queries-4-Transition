@@ -1,0 +1,22 @@
+div {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 180%;
+}
+
+@media screen and (min-width:641px) and (max-width: 960px) {
+    div {
+        background-color: red;
+        transition: background-color 3s ease;
+    }
+}
+
+
